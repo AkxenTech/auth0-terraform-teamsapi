@@ -1,0 +1,21 @@
+# Ignore Terraform files
+*.tfstate
+*.tfstate.backup
+.terraform/
+terraform.tfvars
+
+# Ignore compiled provider binary
+terraform-provider-auth0teams
+
+# Ignore editor/dev artifacts
+*.log
+.vscode/
+.idea/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon and metadata files
+Icon?
