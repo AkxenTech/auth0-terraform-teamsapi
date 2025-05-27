@@ -1,0 +1,7 @@
+# terraform.tfvars
+
+# Replace with your actual API token for the Auth0 Teams API
+api_token = "your-auth0teams-api-token"
+
+# Replace with your team slug (usually lowercase, no spaces)
+team_slug = "your-team-slug"
