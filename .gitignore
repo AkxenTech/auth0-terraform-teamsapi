@@ -3,6 +3,7 @@
 *.tfstate.backup
 .terraform/
 terraform.tfvars
+*.tfvars
 
 # Ignore compiled provider binary
 terraform-provider-auth0teams
@@ -19,3 +20,19 @@ terraform-provider-auth0teams
 
 # Icon and metadata files
 Icon?
+
+# Security: Ignore environment files
+.env
+.env.local
+.env.*.local
+
+# Security: Ignore secrets and credentials
+*secret*
+*credential*
+*token*
+*password*
+*key*
+
+# Security: Ignore backup files
+*.bak
+*.backup
