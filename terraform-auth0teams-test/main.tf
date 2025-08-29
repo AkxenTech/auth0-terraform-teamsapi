@@ -24,7 +24,7 @@ provider "auth0teams" {
 
 resource "auth0teams_tenant" "bola-terra04" {
   tenant_name      = "bola-terra04"
-  admin_email      = "akinbola.adetunji@okta.com"
+  admin_email      = "user@example.com"
   region           = "us"
   environment_type = "development"
 }
