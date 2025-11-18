@@ -1,2 +1,2 @@
-# auth0-teams-api-terraform
-Auth0 Terraform Provider support for Teams API
+# auth0-teams-api-terraform (opensource provider)
+Terraform Opensource Provider for Teams API, tenant creation and deletion
